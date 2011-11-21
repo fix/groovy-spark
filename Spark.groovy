@@ -1,17 +1,17 @@
 if(args.length==0){
-	def sysin=System.in.text
+	String sysin=System.in.text
 	if(sysin){
-		args=sysin.split(" ");
+		args=sysin.split("\n");
 		if(args.length<2){
-			args=sysin.split("/n");
+			args=sysin.split(" ");
 		}
 	}
 }
 if(args.length==0) println "usage: groovy spark 0 4 35 7 9 ..."
 else {
 	String sparks = "▁▂▃▄▅▆▇"
-	def min=Double.MAX_VALUE
-	def max=Double.MIN_VALUE
+	double min=Double.MAX_VALUE
+	double max=Double.MIN_VALUE
 	output=""
 	args.each{
 		//println it
