@@ -7,7 +7,7 @@ if(args.length==0){
 		}
 	}
 }
-if(args.length==0) println "usage: groovy spark 0 4 35 7 9 ..."
+if(args.length==0) println "usage: spark 0 4 35 7 9 ..."
 else {
 	String sparks = "▁▂▃▄▅▆▇"
 	double min=Double.MAX_VALUE
