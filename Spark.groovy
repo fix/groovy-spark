@@ -1,4 +1,4 @@
-if(args.length<2){
+if(args.length<2 && System.in.available()){
 	String sysin=System.in.text
 	if(sysin){
 		args=sysin.split("\n");
