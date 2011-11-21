@@ -9,7 +9,7 @@ if(args.length==0){
 }
 if(args.length==0) println "usage: groovy spark 0 4 35 7 9 ..."
 else {
-	String sparks = "▁▂▃▄▅▆▇█"
+	String sparks = "▁▂▃▄▅▆▇"
 	def min=Double.MAX_VALUE
 	def max=Double.MIN_VALUE
 	output=""
