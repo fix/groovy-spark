@@ -1,4 +1,4 @@
-if(args.length==0){
+if(args.length<2){
 	String sysin=System.in.text
 	if(sysin){
 		args=sysin.split("\n");
@@ -9,7 +9,7 @@ if(args.length==0){
 }
 if(args.length==0) println "usage: spark 0 4 35 7 9 ..."
 else {
-	String sparks = "▁▂▃▄▅▆▇"
+	String sparks = '▁▂▃▄▅▆▇'
 	double min=Double.MAX_VALUE
 	double max=Double.MIN_VALUE
 	output=""
